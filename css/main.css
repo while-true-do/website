@@ -1,0 +1,67 @@
+html,
+body{
+}
+section{
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+a{
+  color: #264F73;
+}
+a[href*="//"]:not([href*="while-true-do.io"]) {
+    /* external link styles, use :before or :after if you want! */
+    color: orange;
+}
+#header{
+  background-color: #153259;
+  color: #fff;
+}
+#navigation{
+  font-size: 2rem;
+}
+#navigation ul{
+  margin-bottom: .5rem;
+  margin-top: .5rem;
+}
+#navigation a{
+  padding-left: .5rem;
+  padding-right: .5rem;
+  color: #fff;
+  text-decoration: none;
+}
+#motivation h1{
+  padding-left: .5rem;
+  display: block;
+  background-color: #153259;
+  color: #fff;
+}
+#development h1{
+  padding-left: .5rem;
+  display: block;
+  background-color: #153259;
+  color: #fff;
+}
+#community h1{
+  padding-left: .5rem;
+  display: block;
+  color: #fff;
+  background: #153259;
+}
+#infracloud h1{
+  padding-left: .5rem;
+  display: block;
+  color: #fff;
+  background-color: #153259;
+}
+.left{
+  float: left;
+  display: inline-block;
+}
+.right{
+  float: right;
+  display: block;
+}
+.img-responsive{
+  width: 100%;
+  height: auto;
+}
