@@ -2,12 +2,6 @@
 ![](https://img.shields.io/github/license/while-true-do/website.svg?style=flat)
 ![](https://img.shields.io/github/issues/while-true-do/website.svg?style=flat)
 
-<!-- Only Ansible, parsing from meta/main.yml -->
-<!-- FIXME: Maintain in ansible-galaxy-skeleton -->
-![](https://img.shields.io/badge/dynamic/yaml.svg?label=Min.%20Ansible%20Version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fwhile-true-do%2Fwebsite%2Fmaster%2Fmeta%2Fmain.yml&query=%24.galaxy_info.min_ansible_version&colorB=black)
-![](https://img.shields.io/badge/dynamic/yaml.svg?label=Supported%20OS&url=https%3A%2F%2Fraw.githubusercontent.com%2Fwhile-true-do%2Fwebsite%2Fmaster%2Fmeta%2Fmain.yml&query=galaxy_info.platforms%5B*%5D.name&colorB=black)
-![](https://img.shields.io/badge/dynamic/yaml.svg?label=Galaxy%20Tags&url=https%3A%2F%2Fraw.githubusercontent.com%2Fwhile-true-do%2Fwebsite%2Fmaster%2Fmeta%2Fmain.yml&query=%24.galaxy_info.galaxy_tags%5B*%5D&colorB=black)
-
 # While True Do: Website
 
 Website for [while-true-do.io](https://while-true-do.io)
