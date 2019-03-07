@@ -4,52 +4,39 @@
 
 # While True Do: Website
 
-Website for [while-true-do.io](https://while-true-do.io)
+Website Content for [while-true-do.io](https://while-true-do.io)
 
 ## Motivation
 
-We wanted to have something to inform the community and link to our work.
+As a community, we wanted to represent ourselves and have a link to reach us.
 
 ## Description
 
-tbd
-<!-- TODO: Describe the repository in some more details.
+The website / landing page should deliver the following information:
 
--   Which features does it provide?
--   Why is it awesome or cool?
--->
+-   Motivation
+-   Ideals
+-   Development Contributions
+-   Community Contributions
+-   Links to some areas and other websites
 
 ## Requirements
 
-tbd
-<!-- TODO: Describe the requirements before installing.
-
--  What is needed?
--  What are prerequisites, dependencies or requirements?
--  Is something needed before one can install?
--->
+The website uses [Font awesome](https://fontawesome.com/) and
+[Style Cheat](https://github.com/style-cheat).
 
 ## Installation
 
-tbd
-<!-- TODO: Describe the Installation process.
+You need to clone the repository and a webserver like httpd, nginx or github
+pages will deliver the **index.html**.
 
--  How do you install the software/tool?
--  Is there a package, container or some other resources?
--  Are special commands needed to build/install/run?
--->
+```
+git clone https://github.com/while-true-do/website.git
+```
 
 ## Usage
 
-tbd
-<!-- TODO: Describe how one can use the repository or it's software.
-
--   Is there a help or manual?
--   How do you call the software?
--   Is there something to configure?
- -->
-
-<!-- Footer (auto generated) -->
+A webserver needs to be configured and point to the **index.html**.
 
 ## Testing
 

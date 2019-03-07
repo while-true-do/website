@@ -5,15 +5,21 @@ section{
   margin-bottom: 1.5rem;
   margin-top: 1.5rem;
 }
+/* Colors:
+#27ae60
+#2ecc71
+#ecf0f1
+#2c3e50
+*/
 a{
-  color: #264F73;
+  color: #2c3e50;
 }
-a[href*="//"]:not([href*="while-true-do.io"]) {
+a[href*="//"]:not([href="while-true-do.io"]) {
     /* external link styles, use :before or :after if you want! */
-    color: orange;
+    color: #2c3e50;
 }
 #header{
-  background-color: #153259;
+  background-color: #27ae60;
   color: #fff;
 }
 #navigation{
@@ -29,30 +35,6 @@ a[href*="//"]:not([href*="while-true-do.io"]) {
   color: #fff;
   text-decoration: none;
 }
-#motivation h1{
-  padding-left: .5rem;
-  display: block;
-  background-color: #153259;
-  color: #fff;
-}
-#development h1{
-  padding-left: .5rem;
-  display: block;
-  background-color: #153259;
-  color: #fff;
-}
-#community h1{
-  padding-left: .5rem;
-  display: block;
-  color: #fff;
-  background: #153259;
-}
-#infracloud h1{
-  padding-left: .5rem;
-  display: block;
-  color: #fff;
-  background-color: #153259;
-}
 .left{
   float: left;
   display: inline-block;
@@ -64,4 +46,10 @@ a[href*="//"]:not([href*="while-true-do.io"]) {
 .img-responsive{
   width: 100%;
   height: auto;
+}
+.section-title{
+  background-color: #ecf0f1;
+  display: block;
+  padding-left: .5rem;
+  padding-right: .5rem;
 }
